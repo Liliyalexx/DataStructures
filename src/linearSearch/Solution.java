@@ -10,7 +10,7 @@ public static void main(String[] args) {
 	System.out.println("Enter the element to be serched");
 	int searchValue = sc.nextInt();
 	int result = (int)linearing(arr, searchValue);
-	if (result ==1) {
+	if (result == 1) {
 		System.out.println("Element not in the array");
 	} else {
 		System.out.println("Element found at " + result + " and the search key is "+ arr[result]);
